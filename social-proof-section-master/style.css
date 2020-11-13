@@ -1,6 +1,71 @@
 body{
-    background: image("images/bg-pattern-bottom-desktop.svg");
+    background: url(/images/bg-pattern-bottom-desktop.svg) right bottom no-repeat, url(/images/bg-pattern-top-desktop.svg) left top no-repeat;
+    font-family: 'Spartan', sans-serif;
+    margin: 9% 0% 9% 15%;
 }
+
+/* title */
+
+#title{
+    display: inline;
+    text-align: left;
+
+}
+
+.main-header{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    width: 80%;
+    font-size: 3rem;
+}
+
+.main-text{
+    color: hsl(303, 10%, 53%);
+    font-size: 13px;
+    width: 80%;
+}
+
+/* rating */
+
+#rating{
+    display: inline-block;
+}
+
+.rating-container{
+    padding: 17px 60px 17px 30px;
+    margin: 20px;
+    background-color:hsl(300, 24%, 96%);
+    color:  hsl(300, 43%, 22%);
+    font-weight: 700;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.rating-container img{
+    padding: 1px;
+}
+
+.rating-text{
+    display: inline;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 
 .attribution {
     font-size: 11px;
